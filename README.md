@@ -70,7 +70,7 @@ Table 2: ROUGE scores obtained by using the dataset created from NW2
 
 **Note:** Although the place information is not clearly presented, inferences can be made from the text. The first sentence provides abstractive summary. The second sentence has an extractive structure.
 
-***2.** Bilim insanları, **biyokimyasalları tespit etmek ve sağlık göstergeleri olarak hizmet etmek için doğrudan vücutla etkileşime giren yeni biyosensör türleri üzerinde araştırma** çalışmalarına başladı.*
+**2.** Bilim insanları, **biyokimyasalları tespit etmek ve sağlık göstergeleri olarak hizmet etmek için doğrudan vücutla etkileşime giren yeni biyosensör türleri üzerinde araştırma** çalışmalarına başladı.
 
 **Note:** Summary is in extractive structure. However obtained summary is good.
 
@@ -100,23 +100,23 @@ Table 3: ROUGE scores obtained by using the dataset created from NW3
 | RougeL | 26.5829 |
 | RougeLsum | 26.6588 |
 
-***1.** Avustralya'nın Melbourne kentindeki araştırmacılar, yapay zeka kullanarak prostat kanseri için tarama yapabileceklerini söylüyorlar.*
+**1.** Avustralya'nın Melbourne kentindeki araştırmacılar, yapay zeka kullanarak prostat kanseri için tarama yapabileceklerini söylüyorlar.
 
 **Note:** In a single sentence, what is meant to be explained in the whole text is well and abstractively summarized.
 
-***2.** Oxford Üniversitesi'ndeki (KAUST) bilim adamları, biyokimyasal verileri analiz etmek için yumuşak organik malzeme kullanıyorlar.*
+**2.** Oxford Üniversitesi'ndeki (KAUST) bilim adamları, biyokimyasal verileri analiz etmek için yumuşak organik malzeme kullanıyorlar.
 
 **Note:** The model made pure abstractive summarization. It determined what kind of material should be used to detect biochemical data.
 
-***3.** Araştırmacılar, lityum-iyon pillerin sökülmesinin kritik malzemeyi daha hızlı ve çevreci bir şekilde geri kazanabileceğini söylüyor.*
+**3.** Araştırmacılar, lityum-iyon pillerin sökülmesinin kritik malzemeyi daha hızlı ve çevreci bir şekilde geri kazanabileceğini söylüyor.
 
 **Note:** Generated summary is good abstractive summary of the text.
 
-***4.** Kuzey İrlanda Ormancılık Otoritesi (KAUST), orman yangınlarının daha hızlı tespit edilebileceğini öne süren bir araştırma yayınladı.*
+**4.** Kuzey İrlanda Ormancılık Otoritesi (KAUST), orman yangınlarının daha hızlı tespit edilebileceğini öne süren bir araştırma yayınladı.
 
 **Note:** The explanation of the research institution is wrong, it is not a mistake to make this inference just by looking at the text. Generated summary gives a good indication of why the text was written.
 
-***5.** Tek katmanlı tek katmanlı bir malzeme üretmek için tasarlanmış sistemler, grafen kaplamalarının üretimini hızlandırmaya yardımcı olabilir.*
+**5.** Tek katmanlı tek katmanlı bir malzeme üretmek için tasarlanmış sistemler, grafen kaplamalarının üretimini hızlandırmaya yardımcı olabilir.
 
 **Note:** There is repetition in the summary. But obtained summary is quite accurate. The term 'single layer'  used to describe graphene is a true description.
 
@@ -139,19 +139,19 @@ Table 4: ROUGE scores obtained by using the dataset created from NW1, NW2, and N
 | RougeL | 32.4833 |
 | RougeLsum | 34.3262 |
 
-***1.** Avustralya'nın Melbourne kentindeki araştırmacılar, yapay zeka (AI) teknolojisinin prostat kanserlerini daha erken tespit etmesine yardımcı olabileceğine inanıyor.*
+**1.** Avustralya'nın Melbourne kentindeki araştırmacılar, yapay zeka (AI) teknolojisinin prostat kanserlerini daha erken tespit etmesine yardımcı olabileceğine inanıyor.
 
 **Note:** Although the country and city information of the university where the research was conducted are indicated with very small clues in the text generated summary contain this information. Summary has been created in an abstract way. In addition, the summary expressed exactly what was intended to be explained in the text.
 
-***2.** KAUST biliminsanları, vücutla etkileşime giren yeni biyosensörler üzerinde çalışıyor. Yeni polimerlerin, biyokimyasal özelliklerini bilgisayarlar ve tünelleme sistemleriyle kontrol edebilmesi için tasarlanmıştır.*
+**2.** KAUST biliminsanları, vücutla etkileşime giren yeni biyosensörler üzerinde çalışıyor. Yeni polimerlerin, biyokimyasal özelliklerini bilgisayarlar ve tünelleme sistemleriyle kontrol edebilmesi için tasarlanmıştır.
 
 **Note:** Our model has tried to create a good abstractive summary. But the second sentence tries to generate parallel things with the text in an abstract way, it has errors.
 
-***3.** Bilim insanları, lityum, nikel, manganez ve kobalt gibi kritik malzemelerin kolayca sökülmesini sağlayan bir yöntem geliştirdi. **Yöntem, elektrikli araç (EV) pillerinin geri dönüşümüyle mücadele** için kullanılmıştır.*
+**3.** Bilim insanları, lityum, nikel, manganez ve kobalt gibi kritik malzemelerin kolayca sökülmesini sağlayan bir yöntem geliştirdi. **Yöntem, elektrikli araç (EV) pillerinin geri dönüşümüyle mücadele** için kullanılmıştır.
 
 **Note:** Marked parts of the second sentence are taken directly from the text. The transitions between the words and the meaning integrity are provided very well.
 
-***4.** ABD Ulusal Havacılık ve Uzay Dairesi (NASA) Başkanı Osama Bushnaq, orman yangınlarının erken tespit edilebilmesi için İHA-IoT (İHA-İHA) teknolojisinin kullanılabileceğini söyledi.*
+**4.** ABD Ulusal Havacılık ve Uzay Dairesi (NASA) Başkanı Osama Bushnaq, orman yangınlarının erken tespit edilebilmesi için İHA-IoT (İHA-İHA) teknolojisinin kullanılabileceğini söyledi.
 
 **Note:** The abbreviation and the person's title are incorrect. It can be said that the summary is abstractive and corresponds exactly to the meaning of the text.
 
