@@ -20,6 +20,7 @@ kanseri için taranabilir. Daha erken tespit edip onları daha hızlı uzman bak
 Even though the texts we obtained from the News Website 1 seem abstractive, the results were not as abstractive as we would like. We think that this is due to the long texts we receive as a summary. Extractive parts of the summaries are written in bold.
 
 Table 1: ROUGE scores obtained by using the dataset created from NW1
+
 | Measure | Score |
 | :---: | :---: |
 | Rouge1 | 43.0229 |
