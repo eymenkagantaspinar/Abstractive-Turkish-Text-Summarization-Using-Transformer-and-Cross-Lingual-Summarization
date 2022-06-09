@@ -28,7 +28,7 @@ Table 1: ROUGE scores obtained by using the dataset created from NW1
 | RougeL | 37.6815 |
 | RougeLsum | 39.4936 |
 
-* **1.** Bilim insanları, yapay zeka (AI) kullanarak, görüntüleme yoluyla prostat kanserini tespit etmeyi amaçlayan bir robot geliştirdi. Robot, **görüntüleri manuel olarak kırpma gereğini ortadan kaldırarak, çeşitli taramalarda hastalık özelliklerini ve bunları tam olarak nerede arayacaklarını araştırma** * 
+***1.** Bilim insanları, yapay zeka (AI) kullanarak, görüntüleme yoluyla prostat kanserini tespit etmeyi amaçlayan bir robot geliştirdi. Robot, **görüntüleri manuel olarak kırpma gereğini ortadan kaldırarak, çeşitli taramalarda hastalık özelliklerini ve bunları tam olarak nerede arayacaklarını araştırma***
 
 **Note:** Obtained summary has not completely taken the same sentences in the text. First sentence has formed a good abstraction.
 
@@ -58,6 +58,7 @@ Table 1: ROUGE scores obtained by using the dataset created from NW1
 Even though we have achieved a better rouge score, our summaries are extractive. The dataset consists of shorter summaries. This situation did not affect the abstraction, but there was a small increase in the rouge score. Extractive parts of the summaries are written in bold.
 
 Table 2: ROUGE scores obtained by using the dataset created from NW2
+
 | Measure | Score |
 | :---: | :---: |
 | Rouge1 | 44.0878 |
@@ -91,6 +92,7 @@ Table 2: ROUGE scores obtained by using the dataset created from NW2
 We were expecting maximum success from the News Website 3 contains summaries suitable for our requests, but we could not get enough news text and summaries on the News Website 3. It was not easy to get these news. Although the Rouge score is not good enough, it consists of sentences and words that are not found in the text. The summaries produced are short.
 
 Table 3: ROUGE scores obtained by using the dataset created from NW3
+
 | Measure | Score |
 | :---: | :---: |
 | Rouge1 | 31.8452 |
@@ -129,6 +131,7 @@ The length of the data set we created is 224 188. Training loss value decreased 
 While combining the data sets, we have weighted the data sets according to the results obtained from each data set, after many previous attempts, in a way to ensure the maximum success for the result we want. We used the News Website 1 and 2 data set in order to extend the summaries,  News Website 3 data set to obtain more abstractive summaries. Extractive parts of the summaries are written in bold.
 
 Table 4: ROUGE scores obtained by using the dataset created from NW1, NW2, and NW3
+
 | Measure | Score |
 | :---: | :---: |
 | Rouge1 | 38.9724 |
@@ -250,6 +253,7 @@ When the sentence translation results are examined, the results are quite succes
 Cross-lingual summarization structure consist of combining our translation and abstractive summarization models. Since our translation model is trained with small texts. We divide the English text to sentence by sentence and pass them through our translation model, result of model combine and pass them through the Turkish abstractive summarization model, and the results we obtained are as follows. We expected the text distortion effect of the two models in the cross-lingual summarization structure, but the results were above expectations in a positive way.
 
 Table 5: ROUGE scores obtained by using cross-lingual framework
+
 | Measure | Score |
 | :---: | :---: |
 | Rouge1 | 21.6799 |
