@@ -28,7 +28,7 @@ Table 1: ROUGE scores obtained by using the dataset created from NW1
 | RougeL | 37.6815 |
 | RougeLsum | 39.4936 |
 
-***1.** Bilim insanları, yapay zeka (AI) kullanarak, görüntüleme yoluyla prostat kanserini tespit etmeyi amaçlayan bir robot geliştirdi. Robot, **görüntüleri manuel olarak kırpma gereğini ortadan kaldırarak, çeşitli taramalarda hastalık özelliklerini ve bunları tam olarak nerede arayacaklarını araştırma***
+**1.** Bilim insanları, yapay zeka (AI) kullanarak, görüntüleme yoluyla prostat kanserini tespit etmeyi amaçlayan bir robot geliştirdi. Robot, **görüntüleri manuel olarak kırpma gereğini ortadan kaldırarak, çeşitli taramalarda hastalık özelliklerini ve bunları tam olarak nerede arayacaklarını araştırma**
 
 **Note:** Obtained summary has not completely taken the same sentences in the text. First sentence has formed a good abstraction.
 
@@ -36,7 +36,7 @@ Table 1: ROUGE scores obtained by using the dataset created from NW1
 
 **Note:** Likewise, although summary has an extractive part, it can be said that model makes better abstractive summarization at another stage of the training.
 
-***2.** İngiltere'deki Oxford Üniversitesi'nde (UNUST) araştırmacılar tarafından geliştirilen yeni bir polimer sensörü, **organik elektrokimyasal transistörlerde** (OECT) **kullanılmak üzere tasarlanmıştır. Bu tür cihazlar için, polimer, spesifik iyonların ve biyokimyasal bile***
+**2.** İngiltere'deki Oxford Üniversitesi'nde (UNUST) araştırmacılar tarafından geliştirilen yeni bir polimer sensörü, **organik elektrokimyasal transistörlerde** (OECT) **kullanılmak üzere tasarlanmıştır. Bu tür cihazlar için, polimer, spesifik iyonların ve biyokimyasal bile**
 
 **Note:** Model made a mistake in the abbreviation of the research institution, but the institution is well defined. The word *'sensörü'* at the end of the first sentence is not needed. The last sentence of the summary is unfinished and directly in the text.
 
