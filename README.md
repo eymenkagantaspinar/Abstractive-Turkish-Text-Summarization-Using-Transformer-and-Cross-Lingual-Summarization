@@ -40,15 +40,15 @@ Table 1: ROUGE scores obtained by using the dataset created from NW1
 
 **Note:** Model made a mistake in the abbreviation of the research institution, but the institution is well defined. The word *'sensörü'* at the end of the first sentence is not needed. The last sentence of the summary is unfinished and directly in the text.
 
-***3.** İngiltere'de **Leicester Üniversitesi liderliğindeki bir ekip, değerli malzemeleri elektrotlardan ayırmak için ultrasonik dalgalar kullanan yeni bir pil geri dönüşüm yöntemi geliştirdi. Yöntem, elektrikli araç (EV) pillerinin geri dönüşümüyle mücadele etmek için Faraday Enstitüsü ile geliştirilmiştir***
+**3.** İngiltere'de **Leicester Üniversitesi liderliğindeki bir ekip, değerli malzemeleri elektrotlardan ayırmak için ultrasonik dalgalar kullanan yeni bir pil geri dönüşüm yöntemi geliştirdi. Yöntem, elektrikli araç (EV) pillerinin geri dönüşümüyle mücadele etmek için Faraday Enstitüsü ile geliştirilmiştir**
 
 **Note:** An extractive summary. The model has taken the important sentences as a summary.
 
-***4. Orman yangını sıklığı ve şiddetindeki son zamanlardaki önemli küresel artışla birlikte, orman yangını yönetimine yardımcı olabilecek teknolojiler talep görmektedir. İlk duman ve ısı belirtileri için ormanı izleyebilen nesnelerin interneti (IoT) sensörleri çözüme ışık***
+**4. Orman yangını sıklığı ve şiddetindeki son zamanlardaki önemli küresel artışla birlikte, orman yangını yönetimine yardımcı olabilecek teknolojiler talep görmektedir. İlk duman ve ısı belirtileri için ormanı izleyebilen nesnelerin interneti (IoT) sensörleri çözüme ışık**
 
 **Note:** An extractive summary. Last sentence unfinished.
 
-***5. Alman merkezli teknoloji şirketi Aixtron, geniş alanlar üzerinde düşük maliyetlerle yüksek oranda grafen kaplamalar üretmek için tasarlanmış sistemler başlattı ve sisteminin, mevcut üretim tekniklerinden yaklaşık 200 kat daha fazla, yılda 20.000 m2 grafen üretebileceğini iddia ediyor.***
+**5. Alman merkezli teknoloji şirketi Aixtron, geniş alanlar üzerinde düşük maliyetlerle yüksek oranda grafen kaplamalar üretmek için tasarlanmış sistemler başlattı ve sisteminin, mevcut üretim tekniklerinden yaklaşık 200 kat daha fazla, yılda 20.000 m2 grafen üretebileceğini iddia ediyor.**
 
 **Note:** An extractive summary. The model has taken the important sentence as a summary.
 
@@ -66,7 +66,7 @@ Table 2: ROUGE scores obtained by using the dataset created from NW2
 | RougeL | 37.5922 |
 | RougeLsum | 39.6545 |
 
-***1.**  Avustralya'nın Melbourne kentinde yapılan bir araştırmada, yapay zeka (AI) teknolojisi sayesinde prostat kanseri tespit edilebiliyor. Araştırmacılar, **BT taramalarının kemik ve eklem problemlerini tespit etmek için iyi olduğunu, ancak radyologların görüntülerde prostat kanserlerini tespit etmekte zorla***
+**1.**  Avustralya'nın Melbourne kentinde yapılan bir araştırmada, yapay zeka (AI) teknolojisi sayesinde prostat kanseri tespit edilebiliyor. Araştırmacılar, **BT taramalarının kemik ve eklem problemlerini tespit etmek için iyi olduğunu, ancak radyologların görüntülerde prostat kanserlerini tespit etmekte zorla**
 
 **Note:** Although the place information is not clearly presented, inferences can be made from the text. The first sentence provides abstractive summary. The second sentence has an extractive structure.
 
