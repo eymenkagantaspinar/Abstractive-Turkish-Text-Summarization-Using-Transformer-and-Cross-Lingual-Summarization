@@ -74,15 +74,15 @@ Table 2: ROUGE scores obtained by using the dataset created from NW2
 
 **Note:** Summary is in extractive structure. However obtained summary is good.
 
-***3.** İngiltere'de **bir ekip, değerli malzemeleri elektrotlardan ayırmak için ultrasonik dalgalar kullanan yeni bir pil geri dönüşüm yöntemi geliştirdi. Yöntem, elektrikli araç (EV) pillerinin geri dönüşümüyle mücadele etmek için Faraday Enstitüsü ile geliştirilmiştir.***
+**3.** İngiltere'de **bir ekip, değerli malzemeleri elektrotlardan ayırmak için ultrasonik dalgalar kullanan yeni bir pil geri dönüşüm yöntemi geliştirdi. Yöntem, elektrikli araç (EV) pillerinin geri dönüşümüyle mücadele etmek için Faraday Enstitüsü ile geliştirilmiştir.**
 
 **Note:** Summary is in extractive structure. The model has taken the important sentences as a summary.
 
-***4. Orman yangını sıklığı ve şiddetindeki son zamanlardaki önemli küresel artışla birlikte, orman yangını yönetimine yardımcı olabilecek teknolojiler talep görmektedir. İlk duman ve ısı belirtileri için ormanı izleyebilen nesnelerin interneti (IoT) sensörleri çözüme ışık tut***
+**4. Orman yangını sıklığı ve şiddetindeki son zamanlardaki önemli küresel artışla birlikte, orman yangını yönetimine yardımcı olabilecek teknolojiler talep görmektedir. İlk duman ve ısı belirtileri için ormanı izleyebilen nesnelerin interneti (IoT) sensörleri çözüme ışık tut**
 
 **Note:** Summary is in extractive structure. Last sentence of the summary is unfinished.
 
-***5. Aixtron, geniş alanlar üzerinde düşük maliyetlerle yüksek oranda grafen kaplamalar üretmek için tasarlanmış sistemler başlattı ve sisteminin, mevcut üretim tekniklerinden yaklaşık 200 kat daha fazla, yılda 20.000 m2 grafen üretebileceğini iddia ediyor.***
+**5. Aixtron, geniş alanlar üzerinde düşük maliyetlerle yüksek oranda grafen kaplamalar üretmek için tasarlanmış sistemler başlattı ve sisteminin, mevcut üretim tekniklerinden yaklaşık 200 kat daha fazla, yılda 20.000 m2 grafen üretebileceğini iddia ediyor.**
 
 **Note:** Summary is in extractive structure. The model has taken the important sentence as a summary.
 
@@ -155,7 +155,7 @@ Table 4: ROUGE scores obtained by using the dataset created from NW1, NW2, and N
 
 **Note:** The abbreviation and the person's title are incorrect. It can be said that the summary is abstractive and corresponds exactly to the meaning of the text.
 
-***5.** Teknoloji şirketi Aixtron, **metal folyolar üzerine geniş alanlarda grafen biriktirebilen bir** ruloya sistem geliştirdi. Aixtron’un iddia ettiği gibi, **yalıtkan levhalar üzerinde wafer ölçeğinde grafen üretimine olanak tanı***
+**5.** Teknoloji şirketi Aixtron, **metal folyolar üzerine geniş alanlarda grafen biriktirebilen bir** ruloya sistem geliştirdi. Aixtron’un iddia ettiği gibi, **yalıtkan levhalar üzerinde wafer ölçeğinde grafen üretimine olanak tanı**
 
 **Note:** In our summary, the connections between words and sentence transitions are not good. The summary obtained was in an extractive structure. Our model has tried to talk about too much detail.
 
