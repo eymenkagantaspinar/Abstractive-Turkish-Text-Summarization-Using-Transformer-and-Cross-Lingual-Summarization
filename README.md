@@ -28,7 +28,7 @@ Table 1: ROUGE scores obtained by using the dataset created from NW1
 | RougeL | 37.6815 |
 | RougeLsum | 39.4936 |
 
-***1.** Bilim insanları, yapay zeka (AI) kullanarak, görüntüleme yoluyla prostat kanserini tespit etmeyi amaçlayan bir robot geliştirdi. Robot, **görüntüleri manuel olarak kırpma gereğini ortadan kaldırarak, çeşitli taramalarda hastalık özelliklerini ve bunları tam olarak nerede arayacaklarını araştırma*** 
+* **1.** Bilim insanları, yapay zeka (AI) kullanarak, görüntüleme yoluyla prostat kanserini tespit etmeyi amaçlayan bir robot geliştirdi. Robot, **görüntüleri manuel olarak kırpma gereğini ortadan kaldırarak, çeşitli taramalarda hastalık özelliklerini ve bunları tam olarak nerede arayacaklarını araştırma** * 
 
 **Note:** Obtained summary has not completely taken the same sentences in the text. First sentence has formed a good abstraction.
 
