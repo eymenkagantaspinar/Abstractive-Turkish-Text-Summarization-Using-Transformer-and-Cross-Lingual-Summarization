@@ -1,3 +1,3 @@
 theme: jekyll-theme-cayman
-title: Abstractive Turkish Text Summarization Using Transformer and Cross-Lingual Summarization
-description: The study was done by Eymen Kağan Taşpınar, Yusuf Burak Yetiş and Onur Cihan. We will share the results obtained from the models we mentioned in our study.
+title: Abstractive Turkish Text Summarization and CrossLingual Summarization Using Transformer
+description: The study was done by Eymen Kağan Taşpınar, Yusuf Burak Yetiş and Onur Cihan. We share the results obtained from the models we mentioned in our study, which was published in Deep Learning Research Applications for Natural Language Processing book.
